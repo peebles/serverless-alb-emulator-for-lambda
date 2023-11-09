@@ -1,0 +1,22 @@
+{
+  "name": "serverless-alb-emulator-for-lambda",
+  "version": "1.0.0",
+  "description": "Emulate an ALB frontend for your serverless Lambda functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Peebles",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1491.0",
+    "express": "^4.18.2",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
+    "simple-cw-logger": "^1.0.7",
+    "yargs": "^17.7.2"
+  },
+  "bin": {
+    "alb": "bin/alb.js"
+  }
+}
