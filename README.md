@@ -3,7 +3,7 @@
 ## Quick Start
 
 ```sh
-npm install @peebles/serverless-alb-emulator-for-lambda
+npm install serverless-alb-emulator-for-lambda
 npx sls offline start
 npx alb --stage development serverless.yml
 ```
