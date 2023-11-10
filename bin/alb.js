@@ -120,7 +120,7 @@ app.all("*", app.log.formatter(), async(req, res, cb) => {
     res.status(response.statusCode).send(response.body);
   }).catch(err => {
     console.log(err);
-    if (!cancelled) res.status(500).send(err.message);
+    res.status(500).send(err.message);
   });
 });
 

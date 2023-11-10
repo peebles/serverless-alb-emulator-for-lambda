@@ -1,6 +1,6 @@
 {
   "name": "serverless-alb-emulator-for-lambda",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Emulate an ALB frontend for your serverless Lambda functions",
   "main": "index.js",
   "scripts": {
